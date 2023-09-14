@@ -7,9 +7,9 @@ P = int(input('Теперь впишите произведение данных
 for x in range(S):
     y = S - x
     x = S - y
-    if (x * y == P):
+    if x * y == P:
         print(f'Числа, которые вы загадили, это {x} и {y}.')
         break
     else:
-        if (y == 1):
+        if y == 1:
             print('Перепроверьте Ваши данные.')
